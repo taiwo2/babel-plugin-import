@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <!--css/js files are also supported, you can
+ refer them using relative path.
+ Save all files first, including html file
+ to use this feature. -->
+
+
+	<style type="text/css">
+    h1{
+    color: #555555;
+    }
+    body{
+    background-color: #e2e2e2;
+    }
+    .dcoder{
+    	color: #777777;
+    }
+    </style>
+</head>
+<body>
+
+<form>
+  First name:<br>
+  <input type="text"name="firstname"><br>
+  Last name:<br>
+  <input type="text"name="lastname">
+   
+  <div>
+   Age:
+  <form action="/action_page.php" method="get">
+  <input list="age">
+  <datalist id="age">
+    <option value="one>">
+    <option value="2">
+    <optionvalue="3">
+    <option value="4"">
+  </datalist></form>
+  date:
+  <form action="/action_page.php" method="get">
+  <input list="age">
+  <datalist id="age">
+    <option value="one>">
+    <option value="2">
+    <optionvalue="3">
+    <option value="4"">
+  </datalist>
+</form>
+  </div>
+  
+</div>
+  hobby:<br>
+  <input type="text"name="hobby">
+  <div>
+  <input type="submit"value="Submit"></div>
+</form>
+
+	
+
+</body>
+</html>
+
+    
